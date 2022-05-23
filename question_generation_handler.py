@@ -9,11 +9,11 @@ import tensorflow as tf
 from nltk import PorterStemmer
 from nltk.corpus import wordnet as wn
 
-from dockp.config.app_config import LANGUAGES
-from dockp.helpers.network_helper import RemoteModel, RemoteQuestionGenerator
-from dockp.helpers.utils import Timer
-from dockp.nlp.text_normalizer import TextNormalizer
-from dockp.utils.api_utils import APIHelper
+from utility.config.app_config import LANGUAGES
+from utility.helpers.network_helper import RemoteModel, RemoteQuestionGenerator
+from utility.helpers.utils import Timer
+from utility.nlp.text_normalizer import TextNormalizer
+from utility.utils.api_utils import APIHelper
 from generic_entity_extractor import GenericEntityExtractor
 from logger import Logger
 from question_generation.question_generation_lib.src.demo.instance import \

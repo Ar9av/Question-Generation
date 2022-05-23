@@ -12,7 +12,7 @@ import flags
 from helpers import preprocessing
 from instance import AQInstance
 
-from dockp.utils.api_utils import APIHelper
+from utility.utils.api_utils import APIHelper
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../"))
 FLAGS = tf.app.flags.FLAGS

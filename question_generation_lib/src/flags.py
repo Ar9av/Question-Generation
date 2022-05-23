@@ -2,7 +2,7 @@ import os
 
 import tensorflow as tf
 
-from dockp.config.assets import QUESTION_GENERATION_DATA, QUESTION_GENERATION_MODEL
+from utility.config.assets import QUESTION_GENERATION_DATA, QUESTION_GENERATION_MODEL
 
 # config
 tf.app.flags.DEFINE_boolean("testing", False, "Reduce model size for local testing")
